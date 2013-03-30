@@ -5,6 +5,9 @@
 # ZURB Foundation
 require "zurb-foundation"
 
+# respond-to
+require "respond-to"
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact

@@ -12,4 +12,6 @@ gem "redcarpet"
 
 gem 'haml'
 
+gem 'respond-to'
+
 gem 'coffee-filter' # Coffeescript filter for HAML

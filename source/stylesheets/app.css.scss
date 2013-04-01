@@ -7,6 +7,7 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 @import "respond-to";
+@import "compass/css3";
 
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
@@ -47,3 +48,21 @@
 //   "foundation/components/tooltips",
 //   "foundation/components/dropdown";
 
+/* Micro clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

@@ -11,9 +11,8 @@ files = [
   JASMINE,
   JASMINE_ADAPTER,
   'javascripts/vendor/jquery.js',
-  'spec/javascripts/*.js',
-  'javascripts/*.js',
-  'javascripts/*.coffee'
+  'spec/javascripts/lib/jasmine-jquery.js',
+  'spec/javascripts/*.js'
 ];
 
 

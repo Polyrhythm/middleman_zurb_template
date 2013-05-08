@@ -1,5 +1,3 @@
-#= require "vendor/jquery"
-
 # Foundation Javascript
 #= require "foundation/foundation"
 #= require "foundation/foundation.alerts"

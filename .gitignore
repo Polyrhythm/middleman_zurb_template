@@ -15,4 +15,5 @@
 
 .rvmrc
 
-.rvmrc
+# IDE Specific ignores
+.idea
